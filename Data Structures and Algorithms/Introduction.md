@@ -96,13 +96,145 @@ As an example, let us assume that f(n) = 10n + n is the expression. Then, its ti
 In this case, the rates of growth in the best case and worst case are the same. As a result, the average case will also be the same. For a given function (algorithm), if the rates of growth (bounds) for O and Ω are not the same, then the rate of growth for the Θ case may not be the same. In this case, we need to consider all possible time complexities and take the average of those (for example, for a quick sort average case, refer to the Sorting chapter).
 
 Now consider the definition of Θ notation. It is defined as Θ(g(n)) = {f(n): there exist positive constants c1,c2 and n0 such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0}. g(n) is an asymptotic tight bound for f(n). Θ(g(n)) is the set of functions with the same order of growth as g(n)
-
 #### Important Notes
 
 For analysis (best case, worst case and average), we try to give the upper bound (O) and lower bound (Ω) and average running time (Θ). From the above examples, it should also be clear that, for a given function (algorithm), getting the upper bound (O) and lower bound (Ω) and average running time (Θ) may not always be possible. For example, if we are discussing the best case of an algorithm, we try to give the upper bound (O) and lower bound (Ω) and average running time (Θ).
 In the remaining chapters, we generally focus on the upper bound (O) because knowing the lower bound (Ω) of an algorithm is of no practical importance, and we use the Θ notation if the upper bound (O) and lower bound (Ω) are the same.
-
 #### Why is it called Asymptotic Analysis
 
 From the discussion above (for all three notations: worst case, best case, and average case), we can easily understand that, in every case for a given function f(n) we are trying to find another function g(n) which approximates f(n) at higher values of n. That means g(n) is also a curve which approximates f(n) at higher values of n.
 In mathematics we call such a curve an asymptotic curve. In other terms, g(n) is the asymptotic curve for f(n). For this reason, we call algorithm analysis asymptotic analysis
+
+#### Guidelines for Asymptotic Analysis
+
+There are some general rules to help us determine the running time of an algorithm.
+1. Loops: The running time of a loop is, at most, the running time of the statements
+inside the loop (including tests) multiplied by the number of iterations.
+```java
+for (i=1 ; i <=n ; i++ )
+	m = m + 2; // constant time, c
+```
+$$
+Total Time = c * n = c n = O(n)
+$$
+with "c" constant
+
+2. Nest Loops : Analyze from the inside out. Total running time is the product of the
+sizes of all the loops.
+```java
+// Outer loop execute n times
+for ( i=1 ; i <= n ; i++) {
+	// Inner loop executes n times
+	for ( j=1 ; j <= n ; j++)
+		k = k + 1; // constant time
+}
+```
+$$
+Total Time = c * n * n = c n^2 = O(n^2)
+$$
+3. Consecutive Statements : Add the time complexities of each statement
+
+```java
+x = x + 1; // constant time
+// executes n times
+for ( i=1 ; i <= n ; i++)
+	m = m + 2; // constant time
+// outer loop executes n times
+for ( i=1 ; i <= n ; i++)
+	// Inner loop executed n times
+	for ( j=1 ; j <= n ; j++) 
+		k = k + 1; // constant time
+}
+```
+$$
+Total Time = c0 + c1n + c2n^2 = O(n^2)
+$$
+4. If-Then-Else Statements : Worst-case running time: the test, plus either the 'then' part or the 'else' part ( whichever is larger )
+```java
+// test: constant
+if (length() == 0) {
+	return false; // then part: constant
+}
+else { // else part : (constant + constant) * n
+	for (int n = 0; n < length(); n++) {
+		//another if: constant + constant (no else part)
+		if(!list[n].equals(otherList.list[n]))
+			// constant
+			return false;
+	}
+}
+```
+$$
+Total Time = c0 + c1 + (c2 + c3) * n = O(n)
+$$
+5. Logarithmic Complexity : An algorithm is O(logn) if it takes a constant time to cut
+the problem size by a fraction (usually by ½). As an example let us consider the
+following program: 
+```java
+for (i = 1; i<=n;)
+	i = i * 2;
+```
+If we observe carefully, the value of i is doubling every time. Initially i = 1, in next step i
+= 2, and in subsequent steps i = 4,8 and so on. Let us assume that the loop is executing
+some k times. At kth step 2k = n, and at (k + 1)th step we come out of the loop. Taking
+logarithm on both sides, gives : 
+$$
+log(2^k) = log(n)
+$$
+$$
+k * log(2) = log(n)
+$$
+$$
+k = log(n)
+$$
+Total Time = O(log(n))
+
+Note: Similarly, for the case below, the worst case rate of growth is O(logn). The same
+discussion holds good for the decreasing sequence as well.
+```java
+for (i=n; i >= 1)
+	i = i / 2;
+```
+
+**Another example**: *binary search* (finding a word in a dictionary of n pages)
+	• Look at the center point in the dictionary
+	• Is the word towards the left or right of center?
+	• Repeat the process with the left or right part of the dictionary until the word is found.
+
+#### Simplifying properties of asymptotic notations
+	• Transitivity: f(n) = Θ(g(n)) and g(n) = Θ(h(n)) ⇒ f(n) = Θ(h(n)). Valid for O and Ω as well.
+	• Reflexivity: f(n) = Θ(f(n)). Valid for O and Ω.
+	• Symmetry: f(n) = Θ(g(n)) if and only if g(n) = Θ(f(n)).
+	• Transpose symmetry: f(n) = O(g(n)) if and only if g(n) = Ω(f(n)).
+	• If f(n) is in O(kg(n)) for any constant k > 0, then f(n) is in O(g(n)).
+	• If f1(n) is in O(g1(n)) and f2(n) is in O(g2(n)), then (f1 + f2)(n) is in   O(max(g1(n)),(g1(n))).
+	• If f1(n) is in O(g1(n)) and f2(n) is in O(g2(n)) then f1(n) f2(n) is in O(g1(n) g1(n)).
+
+#### Commonly used Logarithms and Summations
+![[Pasted image 20241027225724.png]]
+#### Arithmetic series 
+![[Pasted image 20241027225753.png]]
+
+#### Geometric series
+![[Pasted image 20241027225829.png]]
+
+#### Harmonic Series
+![[Pasted image 20241027225855.png]]
+
+#### Other important formulas 
+![[Pasted image 20241027225932.png]]
+
+
+#### Master Theorem for Divide and Conquer Recurrences
+Divide and conquer algorithms divide the problem into sub-problems, each of which is part of the original problem, and then perform some additional work to compute the final answer, and then perform some additional work to compute the final answer. 
+Example -> a merge sort algorithm, operates 2 sub-problems, each of which is half the size of the original, and then performs O(n) additional work for merging. This gives the running time the equation : 
+$$
+T(n) = 2 * T(n / 2) + O(n)
+$$
+The following theorem can be used to determine the running time of divide and conquer algorithms. For a given program ( algorithm ), first we try to find the recurrence relation for the problem. 
+If the recurrence is of the below form, then we can directly give the answer without fully solving it. If the recurrence is of the form 
+$$
+T(n) = a * T(n/b) + Teta(n^k * log^p(n))
+$$
+where : ` a >= 1, b > 1, k >= 0 and p is a real number, then :
+![[Pasted image 20241027233202.png]]

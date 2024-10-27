@@ -11,14 +11,10 @@
             "id": "d9d547a8faeead7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structures and Algorithms/Introduction.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "New tab"
             }
           }
         ]
@@ -165,10 +161,19 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d9d547a8faeead7f",
+  "active": "bde0375cdf1de132",
   "lastOpenFiles": [
-    "Data Structures and Algorithms/Why and Who.md",
     "Data Structures and Algorithms/Introduction.md",
+    "Mathematics/Untitled.md",
+    "Mathematics/Untitled",
+    "Mathematics",
+    "Data Structures and Algorithms/resources/Pasted image 20241027225753.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027225829.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027233202.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027225932.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027225855.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027225724.png",
+    "Data Structures and Algorithms/Why and Who.md",
     "Data Access/Untitled",
     "Pasted image 20241027210234.png",
     "Pasted image 20241027205125.png",
@@ -187,8 +192,6 @@
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Introduction To Hibernate.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Basic ORM Techniques.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Impedance Mismatch.md",
-    "Data Access/File Manipulation/Database Access and JDBC/sources/Pasted image 20241027142613.png",
-    "Data Access/File Manipulation/Database Access and JDBC/sources/Pasted image 20241027142635.png",
     "Data Access/File Manipulation/Database Access and JDBC/Working with Embedded Databases.md",
     "Data Access/File Manipulation/Database Access and JDBC/Advanced JDBC Features.md",
     "Data Access/File Manipulation/Database Access and JDBC/Performing CRUD Operations.md",
@@ -206,10 +209,6 @@
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )",
     "Data Access/File Manipulation/Database Access and JDBC/sources",
     "Data Access/File Manipulation/Database Access and JDBC",
-    "Data Access/File Manipulation/Exception Handling",
-    "Data Access",
-    "Data Access/File Manipulation/Java IO/Java_IO_Cheat_Sheet.webp",
-    "Java_IO_Cheat_Sheet 1.webp",
     "Untitled.canvas"
   ]
 }
