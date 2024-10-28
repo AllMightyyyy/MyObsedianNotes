@@ -11,10 +11,14 @@
             "id": "d9d547a8faeead7f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Differential Equations/Exponent Functions as Solutions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Exponent Functions as Solutions"
             }
           }
         ]
@@ -161,24 +165,34 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "bde0375cdf1de132",
+  "active": "d9d547a8faeead7f",
   "lastOpenFiles": [
+    "Mathematics/Recurrence Relations/Recurrence Relations.md",
+    "Mathematics/Recurrence Relations/Linear Recurrence Relations.md",
+    "Data Access/File Manipulation/Database Access and JDBC/Performing CRUD Operations.md",
+    "Data Access/File Manipulation/Database Access and JDBC/JDBC Overview.md",
+    "Data Access/File Manipulation/Database Access and JDBC/Introduction to Databases.md",
+    "Data Access/File Manipulation/Database Access and JDBC/Advanced JDBC Features.md",
+    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Introduction To Hibernate.md",
+    "Mathematics/Differential Equations/Exponent Functions as Solutions.md",
+    "Mathematics/Differential Equations",
+    "Mathematics/Recurrence Relations/resources/Pasted image 20241028093746.png",
+    "Mathematics/Recurrence Relations/resources",
+    "Mathematics/Recurrence Relations",
+    "Mathematics/Recurrence Relations/resources/dsd64604.bmp",
+    "Mathematics/Recurrence Relations/resources/iqxa5kox.bmp",
+    "Mathematics/Recurrence Relations/resources/Pasted image 20241028091056.png",
+    "Mathematics/Recurrence Relations/resources/Pasted image 20241028090738.png",
+    "Data Structures and Algorithms/resources/Pasted image 20241027201655.png",
     "Data Structures and Algorithms/Introduction.md",
     "Mathematics/Untitled.md",
-    "Mathematics/Untitled",
     "Mathematics",
     "Data Structures and Algorithms/resources/Pasted image 20241027225753.png",
     "Data Structures and Algorithms/resources/Pasted image 20241027225829.png",
     "Data Structures and Algorithms/resources/Pasted image 20241027233202.png",
     "Data Structures and Algorithms/resources/Pasted image 20241027225932.png",
-    "Data Structures and Algorithms/resources/Pasted image 20241027225855.png",
-    "Data Structures and Algorithms/resources/Pasted image 20241027225724.png",
     "Data Structures and Algorithms/Why and Who.md",
     "Data Access/Untitled",
-    "Pasted image 20241027210234.png",
-    "Pasted image 20241027205125.png",
-    "Pasted image 20241027202429.png",
-    "Pasted image 20241027201655.png",
     "Data Access/File Manipulation/Exception Handling/Summary.md",
     "Data Structures and Algorithms",
     "Data Access/File Manipulation.zip",
@@ -189,26 +203,16 @@
     "Data Access/File Manipulation/JAVA NIO Modern/File Locking and NIO.2.md",
     "Data Access/File Manipulation/JAVA NIO Modern/Database Performance Optimization.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Advanced Hibernate Features.md",
-    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Introduction To Hibernate.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Basic ORM Techniques.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Impedance Mismatch.md",
     "Data Access/File Manipulation/Database Access and JDBC/Working with Embedded Databases.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Advanced JDBC Features.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Performing CRUD Operations.md",
-    "Data Access/File Manipulation/Database Access and JDBC/JDBC Overview.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Introduction to Databases.md",
     "Data Access/File Manipulation/JAVA NIO Modern",
     "Data Access/File Manipulation/Untitled.md",
     "Data Access/File Manipulation/CSV Handling Java/SuperCSV.md",
     "Data Access/File Manipulation/CSV Handling Java/Summary.md",
     "Data Access/File Manipulation/CSV Handling Java/Optimizing CSV Reading for Large Files.md",
     "Data Access/File Manipulation/CSV Handling Java/OpenCSV.md",
-    "Data Access/File Manipulation/CSV Handling Java/Manual CSV Parsing.md",
-    "Data Access/File Manipulation/CSV Handling Java/CSV Data Mapping to Objects.md",
-    "Data Access/File Manipulation/CSV Handling Java/CSV Basics.md",
     "Data Access/File Manipulation/Object Relational Mapping ( ORM )",
-    "Data Access/File Manipulation/Database Access and JDBC/sources",
-    "Data Access/File Manipulation/Database Access and JDBC",
     "Untitled.canvas"
   ]
 }
