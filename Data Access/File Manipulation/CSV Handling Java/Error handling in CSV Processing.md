@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CSV
+  - CustomExceptions
+  - ExceptionHandling
+---
+
 #### **Why is Error Handling Important?**
 CSV files, especially those sourced externally, can contain inconsistencies, malformed records, or unexpected data. Proper error handling ensures data integrity, prevents application crashes, and facilitates debugging.
 #### **Common CSV Errors:**

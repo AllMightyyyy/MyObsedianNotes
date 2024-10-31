@@ -1,3 +1,7 @@
+---
+tags: [FileManipulation, JavaIO, CSV]
+---
+
 #### **Mapping CSV Rows to Java Objects (POJOs) Using Libraries**
 Mapping CSV data directly to Java objects simplifies data handling and promotes cleaner code. Libraries like OpenCSV and Apache Commons CSV support this through annotations and bean binding.
 

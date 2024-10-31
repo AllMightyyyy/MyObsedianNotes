@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+---
+
 ## XML Structure & Syntax
 ### what is XML ? 
  * XML (eXtensible Markup Language) is a versatile, structured format used to store and transport data

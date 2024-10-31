@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ExceptionHandling
+  - CustomExceptions
+---
+
 #### **Why is Error Handling Important?**
 When dealing with JSON data, especially from external sources, it's crucial to handle errors gracefully to prevent application crashes and ensure data integrity.
 #### **Common JSON Errors:**

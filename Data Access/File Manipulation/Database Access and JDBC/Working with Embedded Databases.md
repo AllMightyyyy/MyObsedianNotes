@@ -1,3 +1,14 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - DataBase
+  - H2
+  - EmbeddedDatabase
+  - ApacheDerby
+  - SQLite
+---
+
 **Embedded databases** are lightweight, self-contained database engines that run within the same process as the application. They are ideal for development, testing, and small-scale applications.
 ### 6.1. Introduction to Embedded Databases
 **Advantages:**

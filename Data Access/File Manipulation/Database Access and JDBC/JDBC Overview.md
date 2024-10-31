@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JDBC
+---
+
 ### Purpose and Architecture of JDBC
 **JDBC (Java Database Connectivity)** is an API in Java that defines how a client may access a database. It provides methods to query and update data in a database, and is oriented towards relational databases.
 #### **Purpose of JDBC:**

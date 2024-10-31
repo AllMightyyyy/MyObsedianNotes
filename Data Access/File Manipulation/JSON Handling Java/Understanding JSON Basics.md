@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JSON
+---
+
 ### Learn JSON Syntax
 
 #### **What is JSON?**

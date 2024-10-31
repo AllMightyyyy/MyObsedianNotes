@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+  - DOMParsing
+---
+
 ### DOM (Document Object Model)
 
 **What is DOM ?**

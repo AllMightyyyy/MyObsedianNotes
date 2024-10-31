@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - StAXWriting
+  - XML
+---
+
 #### **Creating XML with StAX:**
 
 StAX provides a streaming way to write XML, which is more memory-efficient and faster for large documents compared to DOM.

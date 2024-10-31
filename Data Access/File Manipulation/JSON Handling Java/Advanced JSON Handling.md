@@ -1,4 +1,14 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JSON
+  - "#ExceptionHandling"
+  - "#CustomExceptions"
+---
+
 ### Streaming JSON Parsing
+
 
 #### **What is Streaming JSON Parsing?**
 Streaming JSON parsing processes JSON data incrementally, allowing you to handle large JSON files without loading the entire content into memory. Both Jackson and Gson provide streaming APIs.

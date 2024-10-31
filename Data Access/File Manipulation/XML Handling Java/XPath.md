@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+  - XPath
+---
+
 XPath (XML Path Language) is a query language designed to navigate through elements and attributes in an XML document. It allows you to select nodes, compute values, and traverse the XML tree efficiently.
 #### **Why Use XPath?**
 - Simplifies the process of querying XML documents.

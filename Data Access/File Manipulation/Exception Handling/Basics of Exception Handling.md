@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CustomExceptions
+  - ExceptionHandling
+---
+
 Exception handling in Java is a powerful mechanism to handle runtime errors, ensuring the normal flow of application execution isn't disrupted. It allows developers to anticipate and manage potential errors gracefully.
 
 ### Understanding Exceptions in Java

@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ORM
+  - ExceptionHandling
+---
+
 Hibernate offers a plethora of advanced features that enhance performance, manage complex queries, and ensure efficient data handling. In this section, we'll explore some of these features.
 
 ### Caching in Hibernate

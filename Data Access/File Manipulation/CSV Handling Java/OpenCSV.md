@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CSV
+  - OpenCSV
+---
+
 ##### **Overview:**
 OpenCSV is another popular library for handling CSV files in Java. It offers features like bean binding, annotations for column mapping, and handling of complex CSV structures.
 

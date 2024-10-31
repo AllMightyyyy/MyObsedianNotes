@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ExceptionHandling
+  - Summary
+---
+
 delved into the critical aspects of managing errors and exceptions within Java applications. Here's a recap of what we've covered:
 
 1. **Basics of Exception Handling:**

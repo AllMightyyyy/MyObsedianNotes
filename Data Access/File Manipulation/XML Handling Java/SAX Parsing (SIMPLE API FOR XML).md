@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+  - SAXParsing
+---
+
 **What is SAX?**
 * SAX is an event-driven, serial-access mechanism for parsing XML documents. It reads the XML document sequentially and triggers events (like start and end of elements) that you can handle through callback methods
 #### **Pros and Cons of SAX:**

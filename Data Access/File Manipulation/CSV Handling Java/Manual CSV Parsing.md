@@ -1,3 +1,7 @@
+---
+tags: [FileManipulation, JavaIO, CSV]
+---
+
 #### **Reading CSV Files Manually**
 Using Java's `BufferedReader` and `String.split()` method, you can read and parse CSV files line by line.
 

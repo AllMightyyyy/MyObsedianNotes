@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - Regex
+---
+
 Regular expressions (regex) are powerful tools for pattern matching and text processing. Below are some basic and commonly used regex patterns that can help you perform various tasks efficiently.
 
 ### 1. **Basic Character Matching**

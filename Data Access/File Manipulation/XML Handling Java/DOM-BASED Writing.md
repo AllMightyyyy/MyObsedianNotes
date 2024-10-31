@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - DOMWriting
+  - XML
+---
+
 #### **Creating XML with DOM:**
 
 Using DOM to write XML involves building the XML tree in memory and then transforming it into an XML file.

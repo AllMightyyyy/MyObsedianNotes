@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+  - XSLT
+---
+
 #### **What is XSLT?**
 XSLT is a language for transforming XML documents into other formats, such as HTML, plain text, or another XML structure. It uses a stylesheet to define the transformation rules.
 #### **Why Use XSLT?**

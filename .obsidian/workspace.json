@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bffb2e8c5fae0cc7",
+        "id": "fedb400dde332f34",
         "type": "tabs",
         "children": [
           {
-            "id": "d9d547a8faeead7f",
+            "id": "d975df7031835dd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Introduction.md",
+                "file": "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/1.Setup Spring Boot Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "1.Setup Spring Boot Project"
             }
           }
         ]
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:CSV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 312.5
   },
   "right": {
     "id": "1e568f53ca91d47b",
@@ -165,53 +165,54 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d9d547a8faeead7f",
+  "active": "bde0375cdf1de132",
   "lastOpenFiles": [
-    "Mathematics/Recurrence Relations/Recurrence Relations.md",
-    "Mathematics/Recurrence Relations/Linear Recurrence Relations.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/2.Create User and Role Entities.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/3.Repositories.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/4.Create Authentication Request and Response DTOs.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/6.JWT Authentication Filter.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/7.Configure Spring Security.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Introduction to Spring Security.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/1.Setup Spring Boot Project.md",
+    "Java Spring Boot/Spring Boot Security.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/8.Authentication Controller.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot/5.JWT Utility Class.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot.md",
+    "Java Spring Boot/Core Concepts of Spring Security/Steps to Implement JWT Authentication in Spring Boot",
+    "introduction-to-spring-security.md",
+    "Data Structures and Algorithms/Graph Overview.md",
+    "Data Structures and Algorithms/Introduction.md",
+    "Data Access/Data Access.md",
+    "Mathematics/Differential Equations/Differential Equations.md",
     "Mathematics/Differential Equations/Exponent Functions as Solutions.md",
+    "Java Spring Boot/Core Concepts of Spring Security",
+    "Projects/Meal Planner App/BackEnd/Meal Planner Backend.md",
+    "Java Spring Boot",
+    "Projects/Meal Planner App/BackEnd/Database Schema.md",
+    "Projects/Meal Planner App/BackEnd/User Management.md",
+    "Projects/Meal Planner App/BackEnd/API Endpoints.md",
+    "Mathematics/Graph Overview.md",
+    "Mathematics/Recurrence Relations/Linear Recurrence Relations.md",
+    "Mathematics/Recurrence Relations/Recurrence Relations.md",
+    "Differential Equations",
+    "Data Structures and Algorithms/Untitled",
+    "Data Structures and Algorithms/resources/books",
+    "Data Structures and Algorithms/Chapter 1 - Data Structures/What is an Algorithm.md",
+    "Data Structures and Algorithms/Chapter 1 - Data Structures/ADT.md",
+    "Data Structures and Algorithms/Chapter 1 - Data Structures",
+    "Data Structures and Algorithms/resources/references",
+    "Data Structures and Algorithms/resources/diagrams",
+    "Data Structures and Algorithms/resources/images",
+    "Data Access/File Manipulation/Java IO/Java_IO_Cheat_Sheet.webp",
+    "Data Access/File Manipulation/Database Access and JDBC/sources/Pasted image 20241027142613.png",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028220723.png",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028224527.png",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028223545.png",
-    "Resources/Books/Data Structures and Algorithms Made Easy_ Data Structures and Algorithmic Puzzles.pdf",
-    "Data Structures and Algorithms/Introduction.md",
-    "Mathematics/Recurrence Relations.md",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028093746.png",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028091056.png",
     "Mathematics/Recurrence Relations/resources/Pasted image 20241028090738.png",
     "Mathematics/Recurrence Relations/resources/iqxa5kox.bmp",
     "Mathematics/Recurrence Relations/resources/dsd64604.bmp",
-    "Mathematics/Recurrence Relations/resources",
-    "Mathematics/Recurrence Relations",
-    "Mathematics/Differential Equations",
-    "Data Structures and Algorithms/Why and Who.md",
-    "Mathematics/Untitled.md",
-    "Mathematics/Untitled",
-    "Mathematics",
-    "Data Structures and Algorithms/resources/Pasted image 20241027225753.png",
-    "Data Structures and Algorithms/resources/Pasted image 20241027225829.png",
-    "Data Access/Untitled",
-    "Data Access/File Manipulation/Exception Handling/Summary.md",
-    "Data Structures and Algorithms",
-    "Data Access/File Manipulation.zip",
-    "Data Access/File Manipulation.rar",
-    "Data Access/File Manipulation/Exception Handling/Best Practices for Exception Handling.md",
-    "Data Access/File Manipulation/Exception Handling/Custom Exceptions.md",
-    "Data Access/File Manipulation/Exception Handling/Basics of Exception Handling.md",
-    "Data Access/File Manipulation/JAVA NIO Modern/File Locking and NIO.2.md",
-    "Data Access/File Manipulation/JAVA NIO Modern/Database Performance Optimization.md",
-    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Advanced Hibernate Features.md",
-    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Introduction To Hibernate.md",
-    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Basic ORM Techniques.md",
-    "Data Access/File Manipulation/Object Relational Mapping ( ORM )/Impedance Mismatch.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Working with Embedded Databases.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Advanced JDBC Features.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Performing CRUD Operations.md",
-    "Data Access/File Manipulation/Database Access and JDBC/JDBC Overview.md",
-    "Data Access/File Manipulation/Database Access and JDBC/Introduction to Databases.md",
-    "Data Access/File Manipulation/Untitled.md",
-    "Data Access/File Manipulation/CSV Handling Java/SuperCSV.md",
-    "Data Access/File Manipulation/CSV Handling Java/Summary.md",
     "Untitled.canvas"
   ]
 }

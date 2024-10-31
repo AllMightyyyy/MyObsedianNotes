@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CSV
+  - Batching
+---
+
 Handling large CSV files efficiently is crucial to prevent memory issues and ensure optimal performance. Here are strategies to optimize CSV reading in Java.
 #### **1. Chunk Processing**
 Process the CSV file in smaller chunks instead of loading the entire file into memory.

@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JDBC
+  - DataBase
+  - Hibernate
+---
+
 it's essential to explore advanced features that enhance performance, ensure data integrity, and provide deeper insights into the database.
 
 ### 5.1. Batch Updates

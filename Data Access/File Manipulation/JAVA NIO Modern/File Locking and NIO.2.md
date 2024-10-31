@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - NIO
+---
+
 Java's NIO.2 (introduced in Java 7 as part of the `java.nio` package) provides a comprehensive set of APIs for advanced file operations, offering greater flexibility and performance compared to the traditional I/O APIs. This section explores NIO.2's features, focusing on file locking, asynchronous I/O, and the `Path` class.
 
 ### Introduction to NIO.2

@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - DataBase
+  - JDBC
+  - RelationalDatabase
+---
+
 ### Understanding Relational Databases
 
 #### **What is a Relational Database?**

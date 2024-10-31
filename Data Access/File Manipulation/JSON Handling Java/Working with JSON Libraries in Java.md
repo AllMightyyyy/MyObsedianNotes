@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JSON
+---
+
 #### **What is Jackson?**
 Jackson is a high-performance JSON processor for Java. It's widely used for serializing Java objects to JSON and deserializing JSON back to Java objects. Jackson is known for its flexibility and extensive feature set.
 #### **Key Features:**

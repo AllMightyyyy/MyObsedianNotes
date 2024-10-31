@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ExceptionHandling
+  - CustomExceptions
+---
+
 Adhering to best practices ensures that your exception handling strategy is effective, maintainable, and does not introduce new issues.
 ### Use Exceptions for Exceptional Conditions Only
 **Principle:** Exceptions should represent unforeseen and exceptional conditions, not regular control flow.

@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CRUD
+  - DataBase
+  - JDBC
+---
+
 Once connected to the database, you can perform CRUD operations using JDBC's `Statement` and `PreparedStatement` classes.
 ### 1. Using Statement for SQL Operations
 The `Statement` interface is used to execute static SQL statements without parameters.

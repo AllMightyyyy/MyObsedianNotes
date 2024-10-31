@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - DatabaseOptimization
+  - Modern
+  - NIO
+---
+
 Optimizing database interactions is crucial for building high-performance and scalable Java applications. This section explores various techniques to enhance database performance, including indexing, query optimization, connection pooling, stored procedures, prepared statements, batch processing, pagination, and caching.
 ### Indexing Strategies
 

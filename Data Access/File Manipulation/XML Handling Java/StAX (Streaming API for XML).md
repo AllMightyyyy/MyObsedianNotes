@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - XML
+  - StAXParsing
+---
+
 #### **What is StAX?**
 StAX is a pull-parsing model for XML processing in Java. Unlike SAX's push model, StAX allows the application to control the parsing by pulling events as needed. It provides both read and write capabilities for XML streams
 

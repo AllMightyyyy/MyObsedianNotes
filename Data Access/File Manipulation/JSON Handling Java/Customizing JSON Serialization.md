@@ -1,3 +1,12 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JSON
+  - ExceptionHandling
+  - CustomExceptions
+---
+
 #### **Why Customize Serialization?**
 Sometimes, the default serialization/deserialization behavior doesn't meet your application's requirements. Customizing allows you to control how objects are converted to JSON and vice versa.
 

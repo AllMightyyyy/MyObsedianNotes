@@ -1,3 +1,11 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - CustomExceptions
+  - ExceptionHandling
+---
+
 Java allows developers to create their own exception types to handle specific error conditions tailored to their application's needs.
 
 ### Defining Custom Exception Classes

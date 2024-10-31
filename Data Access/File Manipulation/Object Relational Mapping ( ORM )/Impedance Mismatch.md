@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ORM
+---
+
 **Object-Relational Impedance Mismatch** refers to the difficulties that arise when integrating object-oriented programming languages (like Java) with relational databases. The fundamental differences between the paradigms of OOP and relational databases create challenges in mapping objects to database tables and vice versa.
 
 #### **Key Differences:**

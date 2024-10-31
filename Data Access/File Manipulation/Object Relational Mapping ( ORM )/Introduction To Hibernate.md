@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ORM
+---
+
 Hibernate is one of the most popular ORM frameworks in the Java ecosystem. It abstracts the low-level JDBC operations, allowing developers to interact with databases using high-level object-oriented APIs. Hibernate handles the mapping between Java classes and database tables, manages sessions, and provides powerful features like caching and lazy loading.
 ### What is Hibernate?
 **Hibernate** is an open-source ORM framework for Java that facilitates the mapping of Java classes to database tables. It provides a framework for mapping an object-oriented domain model to a traditional relational database, handling complex database interactions seamlessly.

@@ -1,3 +1,8 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+---
 
 Created: October 25, 2024 11:30 PM
 Class: Data Access

@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - ORM
+---
+
 Before delving into ORM frameworks like Hibernate, it's essential to understand manual mapping strategies. This foundational knowledge will help you appreciate the abstractions and conveniences provided by ORM tools.
 ### Manual Mapping Strategies
 Manual mapping involves writing JDBC code to map Java objects to database tables and vice versa. This process includes:

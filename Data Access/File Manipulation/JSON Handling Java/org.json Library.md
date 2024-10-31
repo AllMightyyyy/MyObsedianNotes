@@ -1,3 +1,10 @@
+---
+tags:
+  - FileManipulation
+  - JavaIO
+  - JSON
+---
+
 #### **What is org.json?**
 The `org.json` library is a minimalistic JSON library for Java, offering basic functionalities to parse, generate, and manipulate JSON data. It's straightforward and easy to use for simple JSON operations.
 #### **Key Features:**
